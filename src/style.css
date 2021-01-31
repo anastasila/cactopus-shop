@@ -1,0 +1,179 @@
+.card .img-wrap {
+  overflow: hidden;
+}
+
+.card-product-grid {
+  margin-bottom: 20px;
+}
+
+[class*="card-product"] .img-wrap img {
+  max-width: 100%;
+  width: auto;
+  display: inline-block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.card-product-grid .img-wrap {
+  border-radius: 0.2rem 0.2rem 0 0;
+  height: 220px;
+}
+
+[class*="card-product"] .img-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.img-wrap {
+  text-align: center;
+  display: block;
+}
+
+.img-wrap img {
+  max-width: 100%;
+}
+
+.card-product-grid .info-wrap {
+  overflow: hidden;
+  padding: 18px 20px;
+}
+
+.card-product-grid .fix-height {
+  height: 80px;
+  overflow: hidden;
+}
+
+[class*="card-product"] a.title {
+  color: #212529;
+  display: block;
+}
+
+.price-wrap {
+  letter-spacing: -0.7px;
+}
+
+.price {
+  font-weight: 600;
+  color: #212529;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.fa-shopping-cart {
+  font-size: 2rem;
+}
+
+.fa-shopping-cart:before {
+  content: "\f07a";
+}
+
+.fa-shopping-cart:hover {
+  cursor: pointer;
+}
+
+.itemside {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.itemside .aside {
+  position: relative;
+  flex-shrink: 0;
+  height: 150px;
+  width: 25%;
+  overflow: hidden;
+}
+
+.img-sm {
+  overflow: hidden;
+  position: relative;
+  max-width: 100%;
+  width: auto;
+  display: inline-block;
+  -o-object-fit: cover;
+  object-fit: cover;
+  text-align: center;
+  display: block;
+}
+.itemside .info {
+  padding-left: 15px;
+  padding-right: 7px;
+}
+.itemside .title {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.ctrl {
+  width: 38px;
+}
+
+.table-shopping-cart .price-wrap {
+  line-height: 1.2;
+}
+.price-wrap {
+  letter-spacing: -0.7px;
+}
+
+.table-shopping-cart .price {
+  font-weight: bold;
+  margin-right: 5px;
+  display: block;
+}
+
+var {
+  font-style: normal;
+}
+
+small,
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.section-pagetop {
+  padding: 45px 0;
+}
+.bg {
+  background-color: #f8f9fa;
+}
+
+.dlist-align {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+dlist-align dt {
+  width: 150px;
+  word-wrap: break-word;
+  font-weight: normal;
+}
+dt {
+  font-weight: 600;
+}
+
+.dlist-align dd {
+  flex-grow: 1;
+}
+[class*="dlist-"] dd {
+  margin-bottom: 0;
+}
+.text-right {
+  text-align: right !important;
+}
+
+.cart-num {
+  float: right;
+  margin-left: 0.2rem;
+  color: #212529;
+  background-color: #ffffff;
+  border-radius: 50%;
+  font-size: 10px;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
